@@ -33,10 +33,10 @@ contract MyToken {
 
     // burn function
     function burn(address addr, uint value) external {
-        if(balances[addr] >= value){
-            totalSupply -= value;
-            balances[addr] -= value;
-        }  
+        if(balances[addr] < value)
+            return;
+        totalSupply -= value;
+        balances[addr] -= value;
     }
 
 }
