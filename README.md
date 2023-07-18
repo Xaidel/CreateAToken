@@ -19,6 +19,6 @@ Please note that the contract does not include any access control or security me
 # Author
 Karl Cyil Dwight P. Abechuela
 
-#Licence
+# Licence
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
